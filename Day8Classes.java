@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Day8Classes {
     // oop power
     int top = -1;
@@ -13,7 +15,7 @@ public class Day8Classes {
 
     @Override
     public String toString() {
-        return "Day8Classes{" + "top=" + top + ", items=" + items + '}';
+        return "Day8Classes{" + "top=" + top + ", items=" + Arrays.toString(items) + '}';
     }
     
     public static void main(String[] args) {
@@ -24,10 +26,10 @@ public class Day8Classes {
         stack1.push(30);
         stack1.push(40);
         System.out.println(stack1);
-        System.out.println("Pop 1 "+ stack1.pop());
-        System.out.println("Pop 2 "+ stack1.pop());
-        System.out.println("Pop 3 "+ stack1.pop());
-        System.out.println("Pop 4 "+ stack1.pop());
+        // System.out.println("Pop 1 "+ stack1.pop());
+        // System.out.println("Pop 2 "+ stack1.pop());
+        // System.out.println("Pop 3 "+ stack1.pop());
+        // System.out.println("Pop 4 "+ stack1.pop());
 //        Day8Classes stack2 = new Day8Classes();
 //        stack2.push(100);
     }
